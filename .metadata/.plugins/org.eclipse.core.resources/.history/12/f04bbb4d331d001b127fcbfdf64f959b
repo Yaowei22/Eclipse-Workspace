@@ -1,0 +1,15 @@
+import java.sql.DriverManager;
+
+import oracle.jdbc.OracleDriver;
+
+public class StatementsTest {
+	public static void main(String args) {
+		try {
+			DriverManager.registerDriver(new OracleDriver());
+			
+			String url = "jdbc:oracle:thin:@localhost:1521:xe";
+			String user = "username";
+			String pass = 
+		}
+	}
+}
